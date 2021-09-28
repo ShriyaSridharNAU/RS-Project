@@ -5,7 +5,7 @@ import requests
 import time
 
 access_token = "//access_token"
-//The access token is not included here since the repository is public 
+#The access token is not included here since the repository is public 
 
 g = Github(access_token, retry=20)
 
