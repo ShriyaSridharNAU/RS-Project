@@ -4,7 +4,7 @@ import pandas as pd
 import requests
 import time
 
-access_token = "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"
+access_token = "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"
 
 g = Github(access_token, retry=20)
 
