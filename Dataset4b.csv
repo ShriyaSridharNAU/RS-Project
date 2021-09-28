@@ -1,0 +1,324 @@
+,pr_id,pr_title,pr_body,pr_number,pr_url,pr_html_url,pr_state,additions,deletions,pr_changed_files,pr_commits_count,pr_comments_count,pr_review_comments_count,pr_labels_count,pr_assignees_count,pr_labels,pr_created_at,pr_closed_at,pr_review_comments,contributor,contributor_id,contributor_email,contributor_type,contributor_public_repos,contributor_private_repos,contributor_followings,contributor_followers
+0,227347071.0,minor README spelling,"preemptable -> preemtible
+
+EDIT: I have an existing Google open source contribution agreement signed/in place.",6.0,https://api.github.com/repos/google-research/bert/pulls/6,https://github.com/google-research/bert/pull/6,closed,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,[],2018-10-31 16:04:38,2018-10-31 16:06:35,[],,4667922.0,,User,18.0,,0.0,10.0
+1,227369362.0,Minor typo fixes,"Hi,
+
+thanks for releasing the code for BERT :)
+
+Here's a PR with some minor typo fixes! I also have signed a Google open source contribution agreement :)",7.0,https://api.github.com/repos/google-research/bert/pulls/7,https://github.com/google-research/bert/pull/7,closed,11.0,11.0,5.0,1.0,1.0,0.0,0.0,0.0,[],2018-10-31 17:05:29,2018-10-31 17:09:00,[],Stefan Schweter,20651387.0,,User,33.0,,69.0,306.0
+2,227439079.0,Fix (are -> care) typo in README.md,"Thanks for BERT!
+Just a minor fix in README.md
+ NLP tasks that we **are** about -> care
+I have already signed the Google open source contribution agreement ",10.0,https://api.github.com/repos/google-research/bert/pulls/10,https://github.com/google-research/bert/pull/10,closed,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,[],2018-10-31 20:56:23,2018-10-31 21:09:04,[],Ammar Asmro,22536934.0,ammarasmaro@gmail.com,User,52.0,,96.0,58.0
+3,227489934.0,Fix typos.,,14.0,https://api.github.com/repos/google-research/bert/pulls/14,https://github.com/google-research/bert/pull/14,closed,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,[],2018-11-01 01:50:04,2018-11-01 01:56:03,[],Ming-Wei Chang,17599809.0,,User,4.0,,0.0,17.0
+4,227531961.0,Fix the colab hostname in README.md.,"External references should all be to colab.research.
+
+PTAL @jacobdevlin-google ",19.0,https://api.github.com/repos/google-research/bert/pulls/19,https://github.com/google-research/bert/pull/19,closed,3.0,3.0,1.0,1.0,0.0,0.0,0.0,0.0,[],2018-11-01 07:09:03,2018-11-01 13:20:51,[],Craig Citro,468559.0,craigcitro@gmail.com,User,78.0,,23.0,645.0
+5,227799161.0,Minor documentation fix,As title. ,25.0,https://api.github.com/repos/google-research/bert/pulls/25,https://github.com/google-research/bert/pull/25,closed,2.0,1.0,1.0,1.0,3.0,0.0,0.0,0.0,[],2018-11-02 00:27:16,2018-11-02 04:17:58,[],Haibin Lin,5545640.0,linhaibin.eric@gmail.com,User,102.0,,119.0,431.0
+6,227827896.0,fix typo,,31.0,https://api.github.com/repos/google-research/bert/pulls/31,https://github.com/google-research/bert/pull/31,closed,1.0,1.0,1.0,1.0,3.0,0.0,0.0,0.0,[],2018-11-02 04:23:09,2018-11-02 04:27:00,[],jhfeng,23147020.0,,User,13.0,,4.0,3.0
+7,227861945.0,fixed usable,,36.0,https://api.github.com/repos/google-research/bert/pulls/36,https://github.com/google-research/bert/pull/36,closed,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,[],2018-11-02 08:19:03,2018-11-02 16:58:22,[],0xflotus,26602940.0,,User,2210.0,,46.0,155.0
+8,227964158.0,comments: fix the alignement of type_ids,"It seems the [] on CLS and SEP were added after and the masking was not
+realigned",37.0,https://api.github.com/repos/google-research/bert/pulls/37,https://github.com/google-research/bert/pull/37,closed,4.0,4.0,2.0,1.0,3.0,0.0,0.0,0.0,[],2018-11-02 14:59:50,2018-11-02 16:58:33,[],Mathis Chenuet,9201969.0,,User,46.0,,14.0,19.0
+9,228156330.0,Update README.md,"I can't understand the original sentence. Isn't it a typo of ""obtain""?",41.0,https://api.github.com/repos/google-research/bert/pulls/41,https://github.com/google-research/bert/pull/41,closed,1.0,1.0,1.0,1.0,3.0,0.0,0.0,0.0,[],2018-11-04 04:00:23,2018-11-06 20:54:37,[],Jae-woo Kim,1040460.0,,User,8.0,,104.0,26.0
+10,228372948.0,typo correction.,A simple typo correction in the README.md file.,52.0,https://api.github.com/repos/google-research/bert/pulls/52,https://github.com/google-research/bert/pull/52,closed,1.0,1.0,1.0,1.0,3.0,0.0,0.0,0.0,[],2018-11-05 14:35:33,2018-11-05 19:19:05,[],Grégory Châtel,12107203.0,,User,71.0,,74.0,77.0
+11,228512324.0,Add predictor for fine tuned classifier,Added a predict command --do_predict to load fine tuned classifier and give out probabilities to be used in inference mode. Tested out in CPU with MRPC example. Created get_predict_examples for all data processors except XNLI. Can be added if needed. Predict is not supported with TPU mode. Added documentation to readme.,56.0,https://api.github.com/repos/google-research/bert/pulls/56,https://github.com/google-research/bert/pull/56,closed,85.0,7.0,2.0,11.0,6.0,0.0,0.0,0.0,[],2018-11-05 22:25:55,2018-11-06 20:53:26,[],Abhishek Rao,783844.0,,User,39.0,,36.0,44.0
+12,228856446.0,fix to model variable scope,"I believe this fix is correct?
+
+Currently we have:
+
+```
+with tf.variable_scope(""bert"", scope)
+```
+
+where the intention is that ""bert"" is default and ""scope"" take precedence if provided.
+
+Based on https://www.tensorflow.org/api_docs/python/tf/variable_scope, it looks like, as-is, ""bert"" will always be used as scope, and 'scope' will never be used.
+
+Swapping the two makes it so default_name=""bert"", as intended.  (The dangers of not assigning vars by name in python?)
+
+Happy to delete if I've misread the API.
+
+Alternately, we could just default scope='bert' at function definition...I was trying to apply minimal changes, however.",68.0,https://api.github.com/repos/google-research/bert/pulls/68,https://github.com/google-research/bert/pull/68,closed,1.0,1.0,1.0,2.0,0.0,0.0,0.0,0.0,[],2018-11-06 22:28:15,2018-11-07 18:51:03,[],,4667922.0,,User,18.0,,0.0,10.0
+13,228876350.0,fixed predict mode APIs miss-usages,,69.0,https://api.github.com/repos/google-research/bert/pulls/69,https://github.com/google-research/bert/pull/69,closed,2.0,2.0,1.0,1.0,3.0,0.0,0.0,0.0,[],2018-11-07 00:04:24,2018-11-07 00:12:08,[],Aijun Bai,3437674.0,,User,20.0,,0.0,61.0
+14,228930318.0,Merge pull request #1 from google-research/master,pull the newest,73.0,https://api.github.com/repos/google-research/bert/pulls/73,https://github.com/google-research/bert/pull/73,closed,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,[],2018-11-07 06:33:31,2018-11-07 06:33:50,[],Peter Ding,670690.0,dfhayst@gmail.com,User,51.0,,99.0,311.0
+15,228960204.0,fix label_map key error in function `convert_single_example` in `run_classifier.py` when doing prediction,"An error arised when I tried to do prediction from classifier:
+
+Traceback (most recent call last):
+  File ""run_classifier.py"", line 896, in <module>
+    tf.app.run()
+  File ""/root/virtualenvs/bert_py3/lib/python3.5/site-packages/tensorflow/python/platform/app.py"", line 125, in run
+    _sys.exit(main(argv))
+  File ""run_classifier.py"", line 863, in main
+    FLAGS.max_seq_length, tokenizer, predict_file)
+  File ""run_classifier.py"", line 448, in file_based_convert_examples_to_features
+    max_seq_length, tokenizer)
+  File ""run_classifier.py"", line 418, in convert_single_example
+    label_id = label_map[example.label]
+KeyError: '2'
+
+That's because the `test.tsv` does not have labels like `train.tsv` or `dev.tsv` does, but function `get_test_examples` uses `_create_examples` the same way as `train` or `dev` mode. So just need to give allowed labels(but won't be used for prediction) to test examples.",76.0,https://api.github.com/repos/google-research/bert/pulls/76,https://github.com/google-research/bert/pull/76,closed,13.0,3.0,1.0,1.0,1.0,0.0,0.0,0.0,[],2018-11-07 09:11:06,2018-11-07 18:33:47,[],RUCHEN ZHANG,25071726.0,ruchenzhang93@gmail.com,User,7.0,,1.0,5.0
+16,229141960.0,"Wrong fork, please disregard",,78.0,https://api.github.com/repos/google-research/bert/pulls/78,https://github.com/google-research/bert/pull/78,closed,77.0,29.0,2.0,17.0,1.0,0.0,0.0,0.0,[],2018-11-07 19:27:42,2018-11-07 19:27:53,[],Nelson Liu,7272031.0,,User,75.0,,4.0,506.0
+17,229177870.0,Add method for converting ids to tokens.,Helpful method for token generation tasks.,79.0,https://api.github.com/repos/google-research/bert/pulls/79,https://github.com/google-research/bert/pull/79,closed,18.0,6.0,1.0,2.0,3.0,0.0,0.0,0.0,[],2018-11-07 21:42:54,2018-11-09 15:24:47,[],Bogdan Didenko,11133686.0,b.didenko@gmail.com,User,21.0,,5.0,14.0
+18,229568569.0,Add flag to extract only features for the [CLS] token,"This flag helps reducing the file size when only the feature for the [CLS] token is needed. For example, to use BERT to extract paragraph vectors only.",87.0,https://api.github.com/repos/google-research/bert/pulls/87,https://github.com/google-research/bert/pull/87,closed,6.0,0.0,1.0,4.0,2.0,0.0,0.0,0.0,[],2018-11-09 02:19:19,2018-11-09 22:19:09,[],Eduardo Gonzalez Ponferrada,17855740.0,,User,17.0,,16.0,12.0
+19,229835500.0,fix tokenization_test,"tokenization_test currently fails because the NamedTemporaryFile is opened as a binary file, but the vocab is written as text.",93.0,https://api.github.com/repos/google-research/bert/pulls/93,https://github.com/google-research/bert/pull/93,closed,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,[],2018-11-09 22:21:18,2018-11-09 22:32:36,[],Mathis Chenuet,9201969.0,,User,46.0,,14.0,19.0
+20,229895845.0,refactor,"Refactoring that grew that quite a bit more than expected.
+I tried to use more declarative constructs (instead of the many existing for loops) to make the code easier to understand, + some generator comprehension to avoid allocating lists, and factorizations in utils.py.",96.0,https://api.github.com/repos/google-research/bert/pulls/96,https://github.com/google-research/bert/pull/96,closed,183.0,427.0,11.0,36.0,2.0,0.0,0.0,0.0,[],2018-11-10 15:43:56,2018-11-17 18:48:20,[],Mathis Chenuet,9201969.0,,User,46.0,,14.0,19.0
+21,230348531.0,Update README.md,just a typo -,111.0,https://api.github.com/repos/google-research/bert/pulls/111,https://github.com/google-research/bert/pull/111,closed,1.0,1.0,1.0,1.0,5.0,0.0,0.0,0.0,[],2018-11-13 04:57:47,2018-11-13 11:54:27,[],Chanran Kim,4317641.0,seriousran@gmail.com,User,65.0,,197.0,120.0
+22,230729547.0,define the variable before assinment to work without init_checkpoint,"Currently, run_classifier.py fails without --init_checkpoint option:
+
+```
+  File ""bert/run_classifier.py"", line 628, in model_fn
+    if var.name in initialized_variable_names:
+UnboundLocalError: local variable 'initialized_variable_names' referenced before assignment
+```
+
+The patch allows to work it.",119.0,https://api.github.com/repos/google-research/bert/pulls/119,https://github.com/google-research/bert/pull/119,closed,1.0,0.0,1.0,1.0,2.0,0.0,0.0,0.0,[],2018-11-14 06:57:31,2018-11-14 17:33:09,[],NOKUBI Takatsugu,1149984.0,knok-e@daionet.gr.jp,User,83.0,,12.0,37.0
+23,230738697.0,Define initialized_variable_names even if init_checkpoint is None,"In the function `run_classifier.model_fn_builder`, when `init_checkpoint` is `None`, variable `initialized_variable_names` will not be defined, but it is used later.
+
+This commit fixes this by defining the initial value of it to be `[]`.",120.0,https://api.github.com/repos/google-research/bert/pulls/120,https://github.com/google-research/bert/pull/120,closed,1.0,0.0,1.0,1.0,0.0,0.0,0.0,0.0,[],2018-11-14 07:44:17,2018-11-14 17:33:02,[],Incomplete,11158705.0,,User,85.0,,10.0,14.0
+24,231503041.0,fix boundary checking bug,"`example.start_position` is the index of whitespace separated tokens, while `doc_start` is the index of BPE tokens. Therefore, it is incorrect to compare `example.start_position` and `doc_start` directly.",131.0,https://api.github.com/repos/google-research/bert/pulls/131,https://github.com/google-research/bert/pull/131,closed,1.0,3.0,1.0,1.0,1.0,0.0,0.0,0.0,[],2018-11-16 11:42:28,2018-11-16 12:06:49,[],Peng LI,4365070.0,pengli09@gmail.com,User,29.0,,18.0,71.0
+25,231511041.0,fix boundary checking bug,"`example.start_position` is the index of whitespace separated tokens, while `doc_start` is the index of BPE tokens. Therefore, it is incorrect to compare `example.start_position` and `doc_start` directly.",132.0,https://api.github.com/repos/google-research/bert/pulls/132,https://github.com/google-research/bert/pull/132,closed,1.0,3.0,1.0,1.0,3.0,0.0,0.0,0.0,[],2018-11-16 12:13:29,2018-11-16 16:35:55,[],Peng LI,4365070.0,pengli09@gmail.com,User,29.0,,18.0,71.0
+26,231631536.0,Fix squad 2.0 command to use 2.0 train and dev files,,137.0,https://api.github.com/repos/google-research/bert/pulls/137,https://github.com/google-research/bert/pull/137,closed,4.0,4.0,1.0,1.0,3.0,0.0,0.0,0.0,[],2018-11-16 19:25:26,2018-11-16 19:29:55,[],Jason Pu,20599486.0,,User,11.0,,19.0,23.0
+27,232723852.0,MINOR: dev-v2.0.json location is wrong for SQuAD 2.0,"Minor change, but the wrong file is being downloaded.",157.0,https://api.github.com/repos/google-research/bert/pulls/157,https://github.com/google-research/bert/pull/157,closed,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,[],2018-11-21 16:21:24,2018-11-21 23:11:19,[],Bob van Luijt,5509162.0,bob@semi.technology,User,138.0,,27.0,55.0
+28,232728198.0,Fix squad 2.0 dev data link,A minor typo fix.,158.0,https://api.github.com/repos/google-research/bert/pulls/158,https://github.com/google-research/bert/pull/158,closed,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,[],2018-11-21 16:33:31,2018-11-21 23:11:03,[],zhaoyongke,6440501.0,zhaoyongke@yeah.net,User,8.0,,2.0,41.0
+29,232972677.0,avoid recreating namedtuple class (speedup x5-6 for create_training_instances),+ progressbar if tqdm is installed,163.0,https://api.github.com/repos/google-research/bert/pulls/163,https://github.com/google-research/bert/pull/163,closed,11.0,4.0,1.0,1.0,1.0,0.0,0.0,0.0,[],2018-11-22 13:04:12,2018-11-28 01:27:53,[],Mathis Chenuet,9201969.0,,User,46.0,,14.0,19.0
+30,233292066.0,Fix typo,,167.0,https://api.github.com/repos/google-research/bert/pulls/167,https://github.com/google-research/bert/pull/167,closed,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,[],2018-11-24 00:21:05,2018-11-24 03:11:18,[],Haibin Lin,5545640.0,linhaibin.eric@gmail.com,User,102.0,,119.0,431.0
+31,233430553.0,Fix typo in README.md,,170.0,https://api.github.com/repos/google-research/bert/pulls/170,https://github.com/google-research/bert/pull/170,closed,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,[],2018-11-26 03:43:30,2018-11-28 01:26:50,[],Caspar Z,1015922.0,,User,14.0,,102.0,105.0
+32,233445955.0,add language model predict,"as requested in #139  #35
+
+see more:  bert as language model: https://github.com/xu-song/bert_as_language_model
+
+## test case
+
+```bash
+export BERT_BASE_DIR=model/uncased_L-12_H-768_A-12
+export INPUT_FILE=data/lm/test.en.tsv
+python run_lm_predict.py \
+  --input_file=$INPUT_FILE \
+  --vocab_file=$BERT_BASE_DIR/vocab.txt \
+  --bert_config_file=$BERT_BASE_DIR/bert_config.json \
+  --init_checkpoint=$BERT_BASE_DIR/bert_model.ckpt \
+  --max_seq_length=128 \
+  --output_dir=/tmp/lm_output/
+```
+
+
+
+```bash
+$ cat data/lm/test.en.tsv 
+there is a book on the desk
+there is a plane on the desk
+there is a book in the desk
+
+$ cat /tmp/lm/output/test_result.json
+```
+output:
+
+```yml
+[
+  {
+    ""tokens"": [
+      {
+        ""token"": ""there"",
+        ""prob"": 0.9988962411880493
+      },
+      {
+        ""token"": ""is"",
+        ""prob"": 0.013578361831605434
+      },
+      {
+        ""token"": ""a"",
+        ""prob"": 0.9420605897903442
+      },
+      {
+        ""token"": ""book"",
+        ""prob"": 0.07452250272035599
+      },
+      {
+        ""token"": ""on"",
+        ""prob"": 0.9607976675033569
+      },
+      {
+        ""token"": ""the"",
+        ""prob"": 0.4983428418636322
+      },
+      {
+        ""token"": ""desk"",
+        ""prob"": 4.040586190967588e-06
+      }
+    ],
+    ""ppl"": 17.69329728285426
+  },
+  {
+    ""tokens"": [
+      {
+        ""token"": ""there"",
+        ""prob"": 0.996775209903717
+      },
+      {
+        ""token"": ""is"",
+        ""prob"": 0.03194097802042961
+      },
+      {
+        ""token"": ""a"",
+        ""prob"": 0.8877727389335632
+      },
+      {
+        ""token"": ""plane"",
+        ""prob"": 3.4907534427475184e-05   # low probability
+      },
+      {
+        ""token"": ""on"",
+        ""prob"": 0.1902322769165039
+      },
+      {
+        ""token"": ""the"",
+        ""prob"": 0.5981084704399109
+      },
+      {
+        ""token"": ""desk"",
+        ""prob"": 3.3164762953674654e-06
+      }
+    ],
+    ""ppl"": 59.646456254851806
+  },
+  {
+    ""tokens"": [
+      {
+        ""token"": ""there"",
+        ""prob"": 0.9969795942306519
+      },
+      {
+        ""token"": ""is"",
+        ""prob"": 0.03379646688699722
+      },
+      {
+        ""token"": ""a"",
+        ""prob"": 0.9095568060874939
+      },
+      {
+        ""token"": ""book"",
+        ""prob"": 0.013939591124653816
+      },
+      {
+        ""token"": ""in"",
+        ""prob"": 0.000823647016659379  # low probability
+      },
+      {
+        ""token"": ""the"",
+        ""prob"": 0.5844194293022156
+      },
+      {
+        ""token"": ""desk"",
+        ""prob"": 3.3361218356731115e-06
+      }
+    ],
+    ""ppl"": 54.65941516205144
+  }
+]
+```",173.0,https://api.github.com/repos/google-research/bert/pulls/173,https://github.com/google-research/bert/pull/173,closed,528.0,0.0,1.0,1.0,2.0,0.0,0.0,0.0,[],2018-11-26 05:56:01,2018-12-18 18:40:22,[],Xu Song,13825126.0,xusong.vip@gmail.com,User,54.0,,395.0,42.0
+33,235168421.0,Fixed some typos in comments.,,209.0,https://api.github.com/repos/google-research/bert/pulls/209,https://github.com/google-research/bert/pull/209,closed,2.0,2.0,1.0,1.0,3.0,0.0,0.0,0.0,[],2018-12-01 04:15:14,2018-12-18 18:34:52,[],Leo Zhao,7915719.0,xueliang.zhao@gmail.com,User,14.0,,18.0,10.0
+34,235239514.0,Fix  BERT acronym to be consistent with paper,,214.0,https://api.github.com/repos/google-research/bert/pulls/214,https://github.com/google-research/bert/pull/214,closed,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,[],2018-12-02 05:46:34,2018-12-18 18:36:06,[],Mohd Shukri Hasan,2398765.0,,User,163.0,,46.0,54.0
+35,235336263.0,Fixing word error,I found there was a written error,218.0,https://api.github.com/repos/google-research/bert/pulls/218,https://github.com/google-research/bert/pull/218,closed,172.0,1.0,7.0,1.0,3.0,0.0,0.0,0.0,[],2018-12-03 06:09:59,2018-12-03 06:45:24,[],mokundong,12831016.0,mokundong92@gmail.com,User,58.0,,45.0,12.0
+36,235340026.0,Fixing a writen error,,219.0,https://api.github.com/repos/google-research/bert/pulls/219,https://github.com/google-research/bert/pull/219,closed,1.0,1.0,1.0,1.0,2.0,0.0,0.0,0.0,[],2018-12-03 06:33:45,2018-12-03 06:49:53,[],mokundong,12831016.0,mokundong92@gmail.com,User,58.0,,45.0,12.0
+37,235343002.0,Fixed a writen error,bool true not rue,220.0,https://api.github.com/repos/google-research/bert/pulls/220,https://github.com/google-research/bert/pull/220,closed,1.0,1.0,1.0,1.0,2.0,0.0,0.0,0.0,[],2018-12-03 06:50:58,2018-12-03 07:19:18,[],mokundong,12831016.0,mokundong92@gmail.com,User,58.0,,45.0,12.0
+38,235349336.0,Fix typo in modeling.py,"fix a typo here
+""is_training: bool. rue for training model, false for eval model. Controls  whether dropout will be applied."" =>""is_training: bool. true for training model, false for eval model. Controls  whether dropout will be applied.""",221.0,https://api.github.com/repos/google-research/bert/pulls/221,https://github.com/google-research/bert/pull/221,closed,1.0,1.0,1.0,2.0,2.0,0.0,0.0,0.0,[],2018-12-03 07:24:52,2018-12-03 07:43:01,[],mokundong,12831016.0,mokundong92@gmail.com,User,58.0,,45.0,12.0
+39,235353596.0,Fix typo in modeling.py,found typo in modeling.py,222.0,https://api.github.com/repos/google-research/bert/pulls/222,https://github.com/google-research/bert/pull/222,closed,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,[],2018-12-03 07:46:17,2018-12-18 18:41:01,[],mokundong,12831016.0,mokundong92@gmail.com,User,58.0,,45.0,12.0
+40,235802677.0,West -> West Frisian,"The language ""West"" does not exist, probably a splitting error. Candidates are ""West Frisian"" and ""West Flemish"". The West Frisian Wikipedia is much larger than the West Flemish one, so West Frisian should be the correct one.",227.0,https://api.github.com/repos/google-research/bert/pulls/227,https://github.com/google-research/bert/pull/227,closed,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,[],2018-12-04 13:09:48,2018-12-18 18:24:19,[],Benjamin Heinzerling,4348795.0,,User,13.0,,10.0,74.0
+41,236301255.0,Fix typo in README,,234.0,https://api.github.com/repos/google-research/bert/pulls/234,https://github.com/google-research/bert/pull/234,closed,0.0,0.0,0.0,0.0,1.0,0.0,0.0,0.0,[],2018-12-05 19:51:08,2018-12-06 03:16:35,[],Yang,7486790.0,,User,15.0,,3.0,8.0
+42,236395193.0,Fix typo in README,,235.0,https://api.github.com/repos/google-research/bert/pulls/235,https://github.com/google-research/bert/pull/235,closed,1.0,1.0,1.0,1.0,4.0,0.0,0.0,0.0,[],2018-12-06 03:18:20,2018-12-18 18:35:36,[],Yang,7486790.0,,User,15.0,,3.0,8.0
+43,236770301.0,Added option to use Universal Transformer with bert,"#### Added option to use Universal Transformer with an adaptive computation time mechanism as described in https://arxiv.org/abs/1807.03819 and implemented in Tenstor2Tensor. 
+
+##### usage example:
+```
+python run_pretraining.py \
+  --input_file=/tmp/tf_examples.tfrecord \
+  --output_dir=/tmp/pretraining_output \
+  --do_train=True \
+  --do_eval=True \
+  --bert_config_file=$BERT_BASE_DIR/bert_config.json \
+  --init_checkpoint=$BERT_BASE_DIR/bert_model.ckpt \
+  --train_batch_size=32 \
+  --max_seq_length=128 \
+  --max_predictions_per_seq=20 \
+  --num_train_steps=20 \
+  --num_warmup_steps=10 \
+ --universal=True \
+  --learning_rate=2e-5
+
+``` 
+
+```
+python extract_features.py \
+  --input_file=/tmp/input.txt \
+  --output_file=/tmp/output.jsonl \
+  --vocab_file=$BERT_BASE_DIR/vocab.txt \
+  --bert_config_file=$BERT_BASE_DIR/bert_config.json \
+  --init_checkpoint=$BERT_BASE_DIR/bert_model.ckpt \
+  --layers=-1 \
+  --max_seq_length=128 \
+  --batch_size=8
+```
+
+Please note that `--layers=-1` is mandatory as the universal transformer only has 1 (recurrent) layer.",241.0,https://api.github.com/repos/google-research/bert/pulls/241,https://github.com/google-research/bert/pull/241,closed,314.0,15.0,4.0,1.0,2.0,0.0,0.0,0.0,[],2018-12-07 06:46:53,2018-12-18 18:28:15,[],,9210444.0,,User,5.0,,0.0,1.0
+44,237117326.0,Update run_classifier.py,add writer.close(),245.0,https://api.github.com/repos/google-research/bert/pulls/245,https://github.com/google-research/bert/pull/245,closed,1.0,0.0,1.0,1.0,2.0,0.0,0.0,0.0,[],2018-12-09 08:50:35,2018-12-18 18:30:16,[],lunachy,10249962.0,lunachy@163.com,User,20.0,,4.0,3.0
+45,237173376.0,Increase `global_step` in `apply_gradients` function,"### Short description of what this PR does:
+
+- If `global_step` is not `None`, `apply_gradients` increments `global_step`.",247.0,https://api.github.com/repos/google-research/bert/pulls/247,https://github.com/google-research/bert/pull/247,closed,7.0,4.0,1.0,1.0,1.0,0.0,0.0,0.0,[],2018-12-10 01:15:08,2018-12-18 18:37:05,[],Youngwook Kim,588581.0,ywkim@algorima.io,User,17.0,,3.0,15.0
+46,237605073.0,fix typo,,252.0,https://api.github.com/repos/google-research/bert/pulls/252,https://github.com/google-research/bert/pull/252,closed,2.0,2.0,1.0,1.0,0.0,0.0,0.0,0.0,[],2018-12-11 09:28:41,2018-12-18 18:29:12,[],tianxin,6829601.0,15626487296@163.com,User,70.0,,42.0,27.0
+47,237923797.0,"delete the surplus ""as"" in the comment","just delete the surplus ""as"" in the comment.............#a little change",256.0,https://api.github.com/repos/google-research/bert/pulls/256,https://github.com/google-research/bert/pull/256,closed,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,[],2018-12-12 06:15:27,2018-12-18 18:26:46,[],,23722817.0,,User,20.0,,14.0,24.0
+48,238426644.0,Tokenization code simplification,"Trying to make code more easy to understand, a list comprehension is easier to interpret than a `declaration+loop+list.append+return` statements. 
+
+As this is python, I believe it makes sense to by _pythotic_ so long as that improves readability. 😄 ",266.0,https://api.github.com/repos/google-research/bert/pulls/266,https://github.com/google-research/bert/pull/266,closed,1.0,4.0,1.0,1.0,3.0,0.0,0.0,0.0,[],2018-12-13 15:18:35,2018-12-18 18:40:44,[],Miguel Sozinho Ramalho,19508417.0,,User,59.0,,54.0,168.0
+49,238863569.0,Fix typo in optimization.py,,270.0,https://api.github.com/repos/google-research/bert/pulls/270,https://github.com/google-research/bert/pull/270,closed,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,[],2018-12-14 22:51:32,2018-12-18 18:29:23,[],Youngwook Kim,588581.0,ywkim@algorima.io,User,17.0,,3.0,15.0
+50,238922847.0,Typo fix & py3 compatibility,See diff.,273.0,https://api.github.com/repos/google-research/bert/pulls/273,https://github.com/google-research/bert/pull/273,closed,10.0,6.0,4.0,3.0,1.0,0.0,0.0,0.0,[],2018-12-15 17:33:23,2018-12-15 17:43:38,[],Chong Ruan,8534653.0,,User,62.0,,8.0,166.0
+51,238923594.0,FIX: Python3 compatibility.,See [this issue](https://github.com/google-research/bert/issues/269),274.0,https://api.github.com/repos/google-research/bert/pulls/274,https://github.com/google-research/bert/pull/274,closed,5.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,[],2018-12-15 17:51:50,2018-12-18 18:25:08,[],Chong Ruan,8534653.0,,User,62.0,,8.0,166.0
+52,239408816.0,Updated tokenization_test to use write mode for tmp file,This test was defaulting to a binary mode for the temporary named file which was causing it to fail in python 3. I've updated it to use the write mode,281.0,https://api.github.com/repos/google-research/bert/pulls/281,https://github.com/google-research/bert/pull/281,closed,1.0,1.0,1.0,1.0,1.0,0.0,0.0,0.0,[],2018-12-18 08:58:03,2018-12-18 18:26:15,[],Jade Abbott,5547095.0,jabbott@retrorabbit.co.za,User,42.0,,11.0,123.0
+53,240041310.0,Spell correction,,290.0,https://api.github.com/repos/google-research/bert/pulls/290,https://github.com/google-research/bert/pull/290,closed,1.0,1.0,1.0,1.0,4.0,0.0,0.0,0.0,[],2018-12-20 03:25:55,2018-12-20 04:48:02,[],shyustc,20107047.0,,User,8.0,,1.0,1.0
+54,241013374.0,add do_serve option to script,allowing for export of model in a tensorflow-serving compliant manner,310.0,https://api.github.com/repos/google-research/bert/pulls/310,https://github.com/google-research/bert/pull/310,closed,27.0,4.0,1.0,2.0,2.0,0.0,0.0,0.0,[],2018-12-26 17:35:54,2018-12-26 18:03:16,[],Leonardo Apolonio,1810412.0,,User,65.0,,1.0,32.0
+55,241016774.0,add do_serve option to script,allowing for export of model in an tensorflow compliant manner,311.0,https://api.github.com/repos/google-research/bert/pulls/311,https://github.com/google-research/bert/pull/311,closed,27.0,4.0,1.0,2.0,1.0,2.0,0.0,0.0,[],2018-12-26 18:05:30,2019-01-31 05:02:13,"[{'comment_id': 251216847, 'comment_body': '.', 'comment_created': datetime.datetime(2019, 1, 27, 0, 3, 51), 'commenter': 'hadiamarloo65', 'type': 'User'}, {'comment_id': 251218619, 'comment_body': 'I realized that I should parameterize that variable to remove FLAGS dependency in function', 'comment_created': datetime.datetime(2019, 1, 27, 1, 41, 57), 'commenter': 'lapolonio', 'type': 'User'}]",Leonardo Apolonio,1810412.0,,User,65.0,,1.0,32.0
+56,244284226.0,Fix documentation (the number of parameters),"The number of total parameters depends on vocab_size.
+This PR counts the actual number of parameters contained in each pre-trained models, since their vocab_sizes are different.",358.0,https://api.github.com/repos/google-research/bert/pulls/358,https://github.com/google-research/bert/pull/358,closed,9.0,9.0,1.0,1.0,2.0,0.0,0.0,0.0,[],2019-01-13 15:00:30,2020-01-05 13:00:30,[],,46347328.0,,User,4.0,,0.0,3.0
+57,248298672.0,Simplify convert_to_unicode() in tokenize.py,,403.0,https://api.github.com/repos/google-research/bert/pulls/403,https://github.com/google-research/bert/pull/403,closed,26.0,68.0,1.0,3.0,0.0,0.0,0.0,0.0,[],2019-01-28 21:47:17,2020-10-02 07:46:11,[],Christian Clauss,3709715.0,cclauss@me.com,User,3200.0,,57.0,1935.0
+58,249508170.0,Merge pull request #1 from google-research/master,更新数据2,409.0,https://api.github.com/repos/google-research/bert/pulls/409,https://github.com/google-research/bert/pull/409,closed,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,[],2019-02-01 07:11:29,2019-02-01 07:11:50,[],,9065059.0,,User,76.0,,0.0,0.0
+59,249794323.0,update,,413.0,https://api.github.com/repos/google-research/bert/pulls/413,https://github.com/google-research/bert/pull/413,closed,222353.0,1.0,4.0,3.0,1.0,0.0,0.0,0.0,[],2019-02-02 06:05:49,2019-02-02 06:07:27,[],Od-Erdene.Ch,1751079.0,oderdene.ch@gmail.com,User,77.0,,26.0,11.0
+60,250644013.0,convert_to_unicode() is six.ensure_text(),"https://six.readthedocs.io/#six.ensure_text in __six>=1.12.0__.
+* https://github.com/benjaminp/six/blob/master/six.py#L890-L909",418.0,https://api.github.com/repos/google-research/bert/pulls/418,https://github.com/google-research/bert/pull/418,closed,1.0,16.0,1.0,1.0,0.0,0.0,0.0,0.0,[],2019-02-06 06:11:39,2020-10-02 07:49:53,[],Christian Clauss,3709715.0,cclauss@me.com,User,3200.0,,57.0,1935.0
+61,252481889.0,Added colab tfhub example,Created an example of running BERT through TF Hub in a Colab notebook.,429.0,https://api.github.com/repos/google-research/bert/pulls/429,https://github.com/google-research/bert/pull/429,closed,1233.0,1.0,2.0,2.0,1.0,0.0,0.0,0.0,[],2019-02-12 21:43:36,2019-02-12 22:03:45,[],Dale Markowitz,2328571.0,,User,75.0,,8.0,459.0
+62,252487957.0,Added bert tfhub example on colab,This example runs BERT through tfhub on GPUS in Colab.,430.0,https://api.github.com/repos/google-research/bert/pulls/430,https://github.com/google-research/bert/pull/430,closed,1233.0,1.0,2.0,2.0,0.0,0.0,0.0,0.0,[],2019-02-12 22:04:46,2019-02-12 22:06:08,[],Dale Markowitz,2328571.0,,User,75.0,,8.0,459.0
+63,252489257.0,Changed colab link,Fixed the colab notebook link.,431.0,https://api.github.com/repos/google-research/bert/pulls/431,https://github.com/google-research/bert/pull/431,closed,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,[],2019-02-12 22:09:44,2019-02-12 22:17:24,[],Dale Markowitz,2328571.0,,User,75.0,,8.0,459.0
+64,253254012.0,move the main model codes into a package namespace.,Hopefully the main model codes can be released as an official python package. This is the first step.,437.0,https://api.github.com/repos/google-research/bert/pulls/437,https://github.com/google-research/bert/pull/437,closed,29.0,16.0,13.0,1.0,5.0,0.0,0.0,0.0,[],2019-02-14 23:04:56,2019-09-26 21:39:18,[],,26907141.0,,User,10.0,,0.0,0.0
+65,257145297.0,Fixing typos,Corrected the misspelled word in tokenization.py,463.0,https://api.github.com/repos/google-research/bert/pulls/463,https://github.com/google-research/bert/pull/463,closed,1.0,1.0,1.0,1.0,4.0,0.0,0.0,0.0,[],2019-02-28 16:44:41,2019-02-28 16:53:43,[],Lakshya KD,16672661.0,lakshyakri09@gmail.com,User,50.0,,1.0,2.0
+66,257151001.0,fixing typos,,464.0,https://api.github.com/repos/google-research/bert/pulls/464,https://github.com/google-research/bert/pull/464,closed,1.0,1.0,1.0,1.0,2.0,0.0,0.0,0.0,[],2019-02-28 16:59:29,2019-02-28 17:22:01,[],Lakshya KD,16672661.0,lakshyakri09@gmail.com,User,50.0,,1.0,2.0
+67,266758427.0,Fix bug in run_squad.py,This fixes #540. Thanks for code review.,541.0,https://api.github.com/repos/google-research/bert/pulls/541,https://github.com/google-research/bert/pull/541,closed,19.0,18.0,1.0,1.0,1.0,0.0,0.0,0.0,[],2019-04-02 18:26:38,2019-04-18 12:21:44,[],,6220861.0,,User,13.0,,18.0,57.0
+68,267542911.0,Update tsv struct,,553.0,https://api.github.com/repos/google-research/bert/pulls/553,https://github.com/google-research/bert/pull/553,closed,123.0,8.0,6.0,2.0,1.0,0.0,0.0,0.0,[],2019-04-04 17:25:34,2019-04-04 17:28:36,[],Artur Aleksanyan,4378985.0,artur.aleksanyan89@gmail.com,User,6.0,,7.0,4.0
+69,268401032.0,[MRG] Fix a small typo in contributing.md,,563.0,https://api.github.com/repos/google-research/bert/pulls/563,https://github.com/google-research/bert/pull/563,closed,1.0,1.0,1.0,1.0,0.0,0.0,0.0,0.0,[],2019-04-08 16:04:27,2019-09-26 09:13:48,[],Mohamed Ali Jamaoui,2883926.0,,User,56.0,,18.0,16.0
+70,272953238.0,allow tfhub classifier to run predictions without raising and error,"Added FLAGS.do_predict to FLAGS.do_train and FLAGS.do_eval, so it wouldn't raise an error when only  predictions on test data. Elsewhere in the file, and in run_classifier.py, you had to have one of the three options. ",598.0,https://api.github.com/repos/google-research/bert/pulls/598,https://github.com/google-research/bert/pull/598,closed,2.0,2.0,1.0,1.0,3.0,0.0,0.0,0.0,[],2019-04-24 02:28:17,2019-04-24 02:59:20,[],,1517567.0,,User,10.0,,0.0,6.0
+71,283618809.0,Merge pull request #1 from google-research/master,update,667.0,https://api.github.com/repos/google-research/bert/pulls/667,https://github.com/google-research/bert/pull/667,closed,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,[],2019-05-30 11:29:05,2019-05-30 11:30:09,[],xiulei li,3376647.0,mingspy@163.com,User,127.0,,0.0,4.0
+72,283619543.0,Merge pull request #1 from google-research/master,update,668.0,https://api.github.com/repos/google-research/bert/pulls/668,https://github.com/google-research/bert/pull/668,closed,0.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,[],2019-05-30 11:31:45,2019-05-30 11:32:11,[],xiulei li,3376647.0,mingspy@163.com,User,127.0,,0.0,4.0
+73,284867110.0,Merge newest bert,Merge newest bert,675.0,https://api.github.com/repos/google-research/bert/pulls/675,https://github.com/google-research/bert/pull/675,closed,164.0,0.0,2.0,5.0,1.0,0.0,0.0,0.0,[],2019-06-04 08:31:27,2019-06-04 08:32:05,[],王鹤男,964527.0,wanghenan09@gmail.com,User,105.0,,60.0,42.0
+74,284867782.0,Merge newest bert,Merge newest bert,676.0,https://api.github.com/repos/google-research/bert/pulls/676,https://github.com/google-research/bert/pull/676,closed,164.0,0.0,2.0,5.0,1.0,0.0,0.0,0.0,[],2019-06-04 08:33:21,2019-06-04 08:33:28,[],王鹤男,964527.0,wanghenan09@gmail.com,User,105.0,,60.0,42.0
+75,290907340.0,Sample weight,,712.0,https://api.github.com/repos/google-research/bert/pulls/712,https://github.com/google-research/bert/pull/712,closed,452.0,764.0,1.0,2.0,1.0,0.0,0.0,0.0,[],2019-06-23 18:11:25,2019-06-23 18:12:52,[],,6359098.0,,User,4.0,,0.0,1.0
+76,292598481.0,Added missing word in comment,Added a missing word in the comment,727.0,https://api.github.com/repos/google-research/bert/pulls/727,https://github.com/google-research/bert/pull/727,closed,1.0,1.0,1.0,1.0,2.0,0.0,0.0,0.0,[],2019-06-27 20:51:30,2019-06-27 20:59:44,[],Simon Zeng,25103823.0,simonzeng9@gmail.com,User,21.0,,1.0,2.0
+77,293101863.0,added dbpedia processor,,736.0,https://api.github.com/repos/google-research/bert/pulls/736,https://github.com/google-research/bert/pull/736,closed,61.0,1.0,2.0,3.0,4.0,0.0,0.0,0.0,[],2019-06-30 12:47:23,2019-07-18 11:33:55,[],Saurabh Kulkarni,25904764.0,kulkarn3@buffalo.edu,User,60.0,,163.0,21.0
+78,297300676.0,GH-760: fix wrong assertion that Wikipedia size correlates with number of speakers,"Hi,
+
+folllowing #760 this PR fixes the wrong assertion, that Wikipedia size correlates with number of speaker for a certain language. Very good examples are mentioned in #760.",762.0,https://api.github.com/repos/google-research/bert/pulls/762,https://github.com/google-research/bert/pull/762,closed,1.0,2.0,1.0,1.0,1.0,0.0,0.0,0.0,[],2019-07-13 09:58:58,2019-07-16 22:13:52,[],Stefan Schweter,20651387.0,,User,33.0,,69.0,306.0
+79,297841755.0,Update multilingual.md to correct Wikipedia size size correlation comment.,,764.0,https://api.github.com/repos/google-research/bert/pulls/764,https://github.com/google-research/bert/pull/764,closed,4.0,6.0,1.0,1.0,0.0,0.0,0.0,0.0,[],2019-07-16 01:33:22,2019-07-16 01:40:49,[],Slav Petrov,1657200.0,,User,5.0,,0.0,59.0
+80,299604346.0,  deleted,,779.0,https://api.github.com/repos/google-research/bert/pulls/779,https://github.com/google-research/bert/pull/779,closed,507.0,0.0,3.0,8.0,1.0,0.0,0.0,0.0,[],2019-07-21 02:25:03,2019-07-21 02:25:37,[],brightmart,19634224.0,brightmart@hotmail.com,User,38.0,,0.0,2936.0
+81,332321009.0,serving format changing,,884.0,https://api.github.com/repos/google-research/bert/pulls/884,https://github.com/google-research/bert/pull/884,closed,2539.0,2203.0,4.0,11.0,1.0,0.0,0.0,0.0,[],2019-10-25 03:12:44,2019-10-25 03:13:42,[],Ankur Singh,12071805.0,ankur310794@gmail.com,User,90.0,,29.0,56.0
+82,349297997.0,delete one useless line in modeling.py,,951.0,https://api.github.com/repos/google-research/bert/pulls/951,https://github.com/google-research/bert/pull/951,closed,0.0,1.0,1.0,1.0,3.0,0.0,0.0,0.0,[],2019-12-05 07:37:02,2020-06-09 03:43:34,[],,30584213.0,,User,10.0,,8.0,4.0
+83,353886223.0,Do not write file,,962.0,https://api.github.com/repos/google-research/bert/pulls/962,https://github.com/google-research/bert/pull/962,closed,118178.0,197.0,10.0,8.0,1.0,0.0,0.0,0.0,[],2019-12-17 02:51:08,2019-12-17 02:51:27,[],Shan Zhou,26590783.0,shzhou@redhat.com,User,9.0,,1.0,0.0
+84,386746900.0,Add links to 24 smaller BERT models.,,1027.0,https://api.github.com/repos/google-research/bert/pulls/1027,https://github.com/google-research/bert/pull/1027,closed,71.0,0.0,1.0,1.0,3.0,0.0,0.0,0.0,[],2020-03-11 15:07:25,2020-03-11 15:19:55,[],,61293507.0,,User,3.0,,0.0,7.0
+85,391790580.0,One file script to verify BERT working on ROCm,Please check this simple one file script works. It is for customer to easily verify that BERT works with ROCm on their AMD hardware.,1036.0,https://api.github.com/repos/google-research/bert/pulls/1036,https://github.com/google-research/bert/pull/1036,closed,61191.0,0.0,5.0,1.0,1.0,0.0,0.0,0.0,[],2020-03-21 00:32:08,2020-03-21 00:32:27,[],,3539264.0,,User,8.0,,0.0,3.0
+86,401120901.0,Lamb,"Please merge Lamb addition. There are no conflicts. Lamb code has been tested and it is 
+working properly.",1053.0,https://api.github.com/repos/google-research/bert/pulls/1053,https://github.com/google-research/bert/pull/1053,closed,61560.0,11.0,9.0,7.0,1.0,0.0,0.0,0.0,[],2020-04-08 22:58:29,2020-04-08 23:11:34,[],Diego Garrido,49287536.0,,User,4.0,,0.0,0.0
+87,402369835.0,Lamb2,c)redumb please merge lamb2. It has been verified the LAMB code with 1600000 steps. The code is perfect no issues whatsoever. ,1055.0,https://api.github.com/repos/google-research/bert/pulls/1055,https://github.com/google-research/bert/pull/1055,closed,61597.0,19.0,9.0,5.0,1.0,0.0,0.0,0.0,[],2020-04-12 17:12:30,2020-04-12 17:20:19,[],Diego Garrido,49287536.0,,User,4.0,,0.0,0.0
+88,408918523.0,Create demo.txt,Created,1072.0,https://api.github.com/repos/google-research/bert/pulls/1072,https://github.com/google-research/bert/pull/1072,closed,1.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,[],2020-04-25 14:45:06,2020-04-25 14:46:44,[],Tips,35481125.0,,User,7.0,,0.0,0.0
+89,433418203.0,fea/train-squad-tpu,,1103.0,https://api.github.com/repos/google-research/bert/pulls/1103,https://github.com/google-research/bert/pull/1103,closed,47.0,0.0,1.0,1.0,1.0,0.0,0.0,0.0,[],2020-06-12 01:44:57,2020-06-12 01:45:59,[],Deleted user,10137.0,,User,0.0,,0.0,4789.0
+90,433418491.0,fea/train-squad-tpu,,1104.0,https://api.github.com/repos/google-research/bert/pulls/1104,https://github.com/google-research/bert/pull/1104,closed,47.0,0.0,1.0,1.0,2.0,0.0,0.0,0.0,[],2020-06-12 01:46:16,2020-06-12 01:50:05,[],Deleted user,10137.0,,User,0.0,,0.0,4789.0
+91,441096127.0,Update requirements.txt,"It only works with version 1.11, edited the requirements file to represent the same. ",1114.0,https://api.github.com/repos/google-research/bert/pulls/1114,https://github.com/google-research/bert/pull/1114,closed,1.0,1.0,1.0,1.0,4.0,0.0,0.0,0.0,[],2020-06-28 18:32:27,2020-06-30 15:03:16,[],Rishi Bajargan,29197551.0,rishibajargan@gmail.com,User,8.0,,0.0,0.0
+92,457161077.0,Constants,Add constants.py file to assure consistency between data preparation and fine-tuning. ,1128.0,https://api.github.com/repos/google-research/bert/pulls/1128,https://github.com/google-research/bert/pull/1128,closed,42.0,20.0,3.0,1.0,1.0,0.0,0.0,0.0,[],2020-07-27 13:22:38,2020-07-27 13:23:31,[],,3616957.0,,User,4.0,,0.0,13.0
+93,531599822.0,.,.,1180.0,https://api.github.com/repos/google-research/bert/pulls/1180,https://github.com/google-research/bert/pull/1180,closed,5657.0,5147.0,21.0,9.0,2.0,0.0,0.0,0.0,[],2020-12-03 08:27:43,2020-12-03 08:28:40,[],Kyeongpil Kang,6302455.0,rudvlf0413@korea.ac.kr,User,40.0,,14.0,44.0
