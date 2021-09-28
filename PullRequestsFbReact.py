@@ -4,7 +4,8 @@ import pandas as pd
 import requests
 import time
 
-access_token = "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"
+access_token = "//access_token"
+//The access token is not included here since the repository is public 
 
 g = Github(access_token, retry=20)
 
